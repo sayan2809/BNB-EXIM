@@ -189,6 +189,8 @@ body {
   background-color: #0000ff;
 }
 
+/* navbar */
+
 .navbar {
   display: flex;
   flex-direction: row;
@@ -249,7 +251,7 @@ section {
   padding-top: 30px;
 }
 
-/* nav buttons */
+/* nav button */
 
 #volunteer {
   margin: 0px 05px;
