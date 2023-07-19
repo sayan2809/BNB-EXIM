@@ -213,7 +213,7 @@ body {
   font-size: 30px;
 }
 
-.navigation {
+/* .navigation {
   display: flex;
 }
 
@@ -232,11 +232,81 @@ body {
 
 .navigation a.active {
   color: var(--main-color);
+} */
+
+.tabs {
+  display: flex;
+  position: relative;
+  background-color: #fff;
+  box-shadow: 0 0 1px 0 rgba(24, 94, 224, 0.15),
+    0 6px 12px 0 rgba(24, 94, 224, 0.15);
+  padding: 0.75rem;
+  border-radius: 99px;
 }
 
-.main {
+.tabs * {
+  z-index: 2;
+}
+
+.container input[type="radio"] {
+  display: none;
+}
+
+.tab {
   display: flex;
   align-items: center;
+  justify-content: center;
+  height: 30px;
+  width: 100px;
+  font-size: 0.8rem;
+  color: black;
+  font-weight: 500;
+  border-radius: 99px;
+  cursor: pointer;
+  transition: color 0.15s ease-in;
+}
+
+.container input[type="radio"]:checked + label {
+  color: var(--main-color);
+}
+
+.container input[type="radio"]:checked + label > .notification {
+  background-color: var(--main-color);
+  color: #fff;
+  margin: 0px;
+}
+
+.container input[id="radio-1"]:checked ~ .glider {
+  transform: translateX(0);
+}
+
+.container input[id="radio-2"]:checked ~ .glider {
+  transform: translateX(100%);
+}
+
+.container input[id="radio-3"]:checked ~ .glider {
+  transform: translateX(200%);
+}
+
+.container input[id="radio-4"]:checked ~ .glider {
+  transform: translateX(300%);
+}
+
+.glider {
+  position: absolute;
+  display: flex;
+  height: 30px;
+  width: 100px;
+  background-color: #e6eef9;
+  z-index: 1;
+  border-radius: 99px;
+  transition: 0.25s ease-out;
+}
+
+@media (max-width: 700px) {
+  .tabs {
+    transform: scale(0.6);
+  }
 }
 
 #menu-icon {
@@ -247,11 +317,12 @@ body {
   display: none;
 }
 
-section {
-  padding-top: 30px;
-}
-
 /* nav button */
+
+.main {
+  display: flex;
+  align-items: center;
+}
 
 #volunteer {
   margin: 0px 05px;

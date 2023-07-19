@@ -21,8 +21,10 @@
   </head>
   <body>
     <!--header-->
+
     <div class="header">
       <!--social media links-->
+
       <div class="social">
         <ul class="wrapper">
           <li class="icon facebook">
@@ -57,20 +59,40 @@
     </div>
 
     <!--navbar-->
+
     <div class="navbar">
       <!--logo-->
+
       <div class="logo">
         <img class="logo-img" src="./Images/Logo.png" alt="" />
         <h1 class="logo-txt">EXIM</h1>
       </div>
 
       <!--navigation links-->
-      <ul class="navigation">
+
+      <!-- <ul class="navigation">
         <li><a href="#home" class="active">HOME</a></li>
         <li><a href="#about">PRODUCTS</a></li>
         <li><a href="#service">ABOUT US</a></li>
         <li><a href="#blog">CONTACT US</a></li>
-      </ul>
+      </ul> -->
+
+      <div class="container">
+        <div class="tabs">
+          <input type="radio" id="radio-1" name="tabs" checked="" />
+          <label class="tab" for="radio-1">HOME</label>
+          <input type="radio" id="radio-2" name="tabs" />
+          <label class="tab" for="radio-2">PRODUCTS</label>
+          <input type="radio" id="radio-3" name="tabs" />
+          <label class="tab" for="radio-3">ABOUT US</label>
+          <input type="radio" id="radio-4" name="tabs" />
+          <label class="tab" for="radio-4">CONTACT US</label>
+          <span class="glider"></span>
+        </div>
+      </div>
+
+      <!-- nav button -->
+
       <div class="main">
         <button id="volunteer" onclick="">Shop Now!</button>
         <div class="bx bx-menu" id="menu-icon"></div>
