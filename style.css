@@ -401,13 +401,13 @@ button:active {
 
 /* feature products */
 
-.all-products{
+.all-categories{
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.feature-products{
+.feature-categories{
   margin-top: 30px;
   width: 85%;
   align-self: center;
@@ -416,16 +416,13 @@ button:active {
   font-size: 40px;
 }
 
-.products {
+.categories {
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: scroll;
 }
 
-.products::-webkit-scrollbar {
-  display: none;
-}
+
 
 .text-box1 {
   position: relative;
@@ -434,7 +431,6 @@ button:active {
   border: 1px solid #ddd;
   border-radius: 20px;
   margin-right: 20px;
-  width: 200px;
   cursor: pointer;
 }
 
@@ -445,20 +441,14 @@ button:active {
   padding-bottom: 2;
   border-radius: 15px;
 }
-.heavy-product{
+.heavy-categories{
   margin: 10px;
   font-size: 20px;
 }
 
 
 
-.products {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  padding-top: 20px;
-  padding-bottom: 50px;
-}
+
 
 .trusted-heading {
   display: flex;
