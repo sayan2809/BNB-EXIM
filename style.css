@@ -405,48 +405,63 @@ button:active {
 
 /* feature products */
 
+.all-products{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.feature-products{
+  margin-top: 30px;
+  width: 85%;
+  align-self: center;
+}
+.feature-text{
+  font-size: 40px;
+}
+
 .products {
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: scroll;
+}
+
+.products::-webkit-scrollbar {
+  display: none;
 }
 
 .text-box1 {
   position: relative;
+  background: #fff;
   text-align: center;
-  box-sizing: border-box;
-  width: 500px;
-  height: 320px;
-  background: rgba(217, 217, 217, 0.58);
-  border: 1px solid white;
-  box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
-  backdrop-filter: blur(6px);
-  border-radius: 17px;
-  transition: all 0.5s;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  user-select: none;
-  color: black;
-  margin-left: 30px;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  margin-right: 20px;
+  width: 200px;
+  cursor: pointer;
 }
 
 .heavy {
-  width: 450px;
-  height: 300px;
-  border-radius: 17px;
+  display: block;
+  width: 100%;
+  padding: 8px;
+  padding-bottom: 2;
+  border-radius: 15px;
+}
+.heavy-product{
+  margin: 10px;
+  font-size: 20px;
 }
 
-.heavy-product {
-  position: absolute;
-  bottom: 20px;
-}
+
 
 .products {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  padding-top: 20px;
+  padding-bottom: 50px;
 }
 
 .about-logo {
