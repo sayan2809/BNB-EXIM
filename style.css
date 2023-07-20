@@ -440,6 +440,7 @@ button:active {
   padding: 8px;
   padding-bottom: 2;
   border-radius: 15px;
+  max-width: 400px;
 }
 .heavy-categories{
   margin: 10px;
