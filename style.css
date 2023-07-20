@@ -363,3 +363,41 @@ button:active {
 .beyond {
   color: var(--main-color);
 }
+
+/* feature products */
+
+.text-box1 {
+  position: relative;
+  text-align: center;
+  box-sizing: border-box;
+  width: 500px;
+  height: 320px;
+  background: rgba(217, 217, 217, 0.58);
+  border: 1px solid white;
+  box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+  backdrop-filter: blur(6px);
+  border-radius: 17px;
+  transition: all 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  color: black;
+}
+
+.heavy {
+  width: 450px;
+  border-radius: 17px;
+}
+
+.heavy-product {
+  position: absolute;
+  bottom: 20px;
+}
+
+.products {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
