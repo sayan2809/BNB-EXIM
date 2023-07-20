@@ -459,6 +459,29 @@ button:active {
   align-items: center;
   margin: 30px;
 }
+.trusted-row h2{
+  font-weight: 500;
+}
+.client_text{
+  color: #4ED199;
+  font-size: 30px;
+  font-weight: 600;
+}
+.staff_text{
+  color: #1274E7;
+  font-size: 30px;
+  font-weight: 600;
+}
+.products_text{
+  color: #FFC168;
+  font-size: 30px;
+  font-weight: 600;
+}
+.offices_text{
+  color: #FF6C5F;
+  font-size: 30px;
+  font-weight: 600;
+}
 
 /* about us */
 .about-logo {
@@ -481,9 +504,26 @@ button:active {
   align-items: center;
 }
 
+.about_box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .about-us {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+}
+.about-heading{
+  font-size: 35px;
+  margin-bottom: 25px;
+}
+.about-para{
+  margin-bottom: 25px;
+  line-height: 35px;
 }
 
 .core-team {
