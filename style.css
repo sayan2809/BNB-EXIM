@@ -414,6 +414,7 @@ button:active {
 }
 .feature-text {
   font-size: 40px;
+  margin-bottom: 20px;
 }
 
 .categories {
