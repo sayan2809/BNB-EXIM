@@ -450,8 +450,7 @@ button:active {
   font-size: 20px;
 }
 
-
-.trusted{
+.trusted {
   margin-top: 150px;
 }
 .trusted-heading {
@@ -520,7 +519,7 @@ button:active {
 }
 
 /* about us */
-.about{
+.about {
   margin-top: 150px;
 }
 .about-logo {
@@ -545,6 +544,7 @@ button:active {
 
 .about_box {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
 }
@@ -556,12 +556,12 @@ button:active {
   align-items: center;
   width: 75%;
 }
-.about-us{
+.about-us {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.about-heading{
+.about-heading {
   font-size: 35px;
   margin-bottom: 25px;
 }
@@ -672,10 +672,10 @@ body {
 }
 
 /*contact-us*/
-.contact-us{
+.contact-us {
   margin-top: 130px;
 }
-.text-box2{
+.text-box2 {
   margin: 50px;
 }
 .text-box2 h2 {
@@ -784,7 +784,7 @@ body {
 
 /*footer*/
 
-.footerr{
+.footerr {
   margin-top: 130px;
 }
 
