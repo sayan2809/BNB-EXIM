@@ -399,7 +399,7 @@ button:active {
   color: var(--main-color);
 }
 
-/* feature products */
+/* feature catagories */
 
 .all-categories {
   display: flex;
@@ -458,6 +458,34 @@ button:active {
   justify-content: space-around;
   align-items: center;
   margin: 30px;
+}
+
+/* feature products */
+.all-products {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.feature-products {
+  margin-top: 30px;
+  width: 85%;
+  align-self: center;
+}
+
+.product-text {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.product-detail {
+  color: var(--main-color);
+  font-size: 10px;
+}
+
+.heavy-products {
+  margin: 10px;
+  font-size: 20px;
 }
 
 /* about us */
