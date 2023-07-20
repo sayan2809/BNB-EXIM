@@ -239,7 +239,7 @@ section {
 
 /* Hero Section */
 
-#myVideo{
+#myVideo {
   width: 100%;
   height: auto;
 }
@@ -248,14 +248,13 @@ section {
   z-index: 99;
   top: 280px;
   left: 100px;
-
 }
-.hero-heading{
+.hero-heading {
   color: white;
   font-size: 70px;
   text-shadow: 5px 5px 10px black;
 }
-.hero-para{
+.hero-para {
   color: white;
   width: 40%;
   font-size: 20px;
@@ -265,12 +264,9 @@ section {
   line-height: 30px;
   text-shadow: 2px 2px 10px black;
 }
-.hero-button{
+.hero-button {
   margin-left: 40px !important;
 }
-
-
-
 
 .tabs {
   display: flex;
@@ -447,6 +443,20 @@ button:active {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+}
+
+.trusted-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.trusted-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 30px;
 }
 
 /* about us */
