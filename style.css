@@ -23,6 +23,10 @@ body {
   color: var(--text-color);
 }
 
+section {
+  margin-top: 100px;
+}
+
 .header {
   display: flex;
   flex-direction: row;
@@ -401,6 +405,12 @@ button:active {
 
 /* feature products */
 
+.products {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .text-box1 {
   position: relative;
   text-align: center;
@@ -418,10 +428,12 @@ button:active {
   justify-content: center;
   user-select: none;
   color: black;
+  margin-left: 30px;
 }
 
 .heavy {
   width: 450px;
+  height: 300px;
   border-radius: 17px;
 }
 
