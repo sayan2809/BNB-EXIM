@@ -552,16 +552,12 @@ button:active {
   align-items: center;
   width: 75%;
 }
-<<<<<<< HEAD
 .about-us{
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 .about-heading{
-=======
-.about-heading {
->>>>>>> 9a1ab1ff6c1201e84f8a3ee452608a499fa351af
   font-size: 35px;
   margin-bottom: 25px;
 }
