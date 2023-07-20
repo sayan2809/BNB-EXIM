@@ -324,7 +324,7 @@ body {
   align-items: center;
 }
 
-#volunteer {
+#shop-now {
   margin: 0px 05px;
   font-size: 1rem;
   background: var(--bg-color);
@@ -350,8 +350,8 @@ body {
   vertical-align: middle;
 }
 
-#volunteer:hover,
-#volunteer:active {
+#shop-now:hover,
+#shop-now:active {
   background-color: var(--main-color);
   background-position: 0 0;
   color: var(--bg-color);
@@ -359,4 +359,8 @@ body {
 
 button:active {
   opacity: 0.5;
+}
+
+.beyond {
+  color: var(--main-color);
 }
