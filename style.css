@@ -401,18 +401,18 @@ button:active {
 
 /* feature products */
 
-.all-products{
+.all-products {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.feature-products{
+.feature-products {
   margin-top: 30px;
   width: 85%;
   align-self: center;
 }
-.feature-text{
+.feature-text {
   font-size: 40px;
 }
 
@@ -445,12 +445,10 @@ button:active {
   padding-bottom: 2;
   border-radius: 15px;
 }
-.heavy-product{
+.heavy-product {
   margin: 10px;
   font-size: 20px;
 }
-
-
 
 .products {
   display: flex;
@@ -697,3 +695,104 @@ body {
   display: block;
   height: 100%;
 }
+
+/*contact-us*/
+.text-box2 h2 {
+  width: 170px;
+  height: 23.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--main-color);
+  border-radius: 4px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 14px;
+  color: var(--bg-color);
+  text-align: center;
+  margin-top: 15px;
+}
+
+.text {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  color: #606060;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.text span {
+  color: var(--main-color);
+}
+.input {
+  background: #ffffff;
+  border: 1px solid #cccccc;
+  border-radius: 2px;
+  height: 30px;
+  width: 300px;
+  margin-left: 30px;
+  margin-top: 5px;
+}
+.question {
+  resize: none;
+  height: 220px;
+  width: 500px;
+  margin-top: 5px;
+  background: #ffffff;
+  border: 1px solid #cccccc;
+  border-radius: 2px;
+}
+.button {
+  margin-top: 5px;
+  font-size: 1rem;
+  background: var(--main-color);
+  border: 1px solid var(--main-color);
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: var(--bg-color);
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito, roboto, proxima-nova, "proxima nova", sans-serif;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.button:hover,
+.button:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: var(--main-color);
+}
+
+.text-box2 {
+  box-sizing: border-box;
+  width: 1000px;
+  height: 650px;
+  background: rgba(217, 217, 217, 0.58);
+  border: 1px solid white;
+  box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+  backdrop-filter: blur(6px);
+  border-radius: 17px;
+  transition: all 0.5s;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: baseline;
+  user-select: none;
+  color: black;
+}
+
+/*contact-us end*/
