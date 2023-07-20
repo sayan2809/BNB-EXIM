@@ -401,13 +401,13 @@ button:active {
 
 /* feature products */
 
-.all-categories{
+.all-categories {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.feature-categories{
+.feature-categories {
   margin-top: 30px;
   width: 85%;
   align-self: center;
@@ -421,8 +421,6 @@ button:active {
   justify-content: center;
   align-items: center;
 }
-
-
 
 .text-box1 {
   position: relative;
@@ -441,12 +439,10 @@ button:active {
   padding-bottom: 2;
   border-radius: 15px;
 }
-.heavy-categories{
+.heavy-categories {
   margin: 10px;
   font-size: 20px;
 }
-
-
 
 .trusted-heading {
   display: flex;
@@ -783,6 +779,10 @@ body {
   justify-content: baseline;
   user-select: none;
   color: black;
+}
+
+.contactpic {
+  width: 500px;
 }
 
 /*contact-us end*/
