@@ -98,7 +98,23 @@
         </div>
       </div>
 
-    <div class="products"></div>
+
+
+      <section>
+        <ul>
+          <li class="list" data-filter="all">All</li>
+          <li class="list" data-filter="general">General medicines</li>
+          <li class="list" data-filter="branded">Branded medicines</li>
+          <li class="list" data-filter="surgerical">Surgerical equipments</li>
+          <li class="list" data-filter="heavy">Heavy medical equipments</li>
+          <li class="list" data-filter="other">Other medical accessories</li>
+        </ul>
+        <div class="products"></div>
+      </section>
+      <div class="popup">
+        <!-- Popup content will be displayed here -->
+     </div>
+
 
 
     <!-- footer -->
@@ -193,7 +209,34 @@
       </footer>
 
 
+      <script>
+        const listItems = document.querySelectorAll('li');
 
+        listItems.forEach((item) => {
+          item.addEventListener('click', () => {
+            listItems.forEach((li) => li.classList.remove('active'));
+            item.classList.add('active');
+          });
+        });
+      </script>
+      <script
+      src="https://code.jquery.com/jquery-3.7.0.js"
+      integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
+      crossorigin="anonymous"></script>
     <script src="products.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.list').click(function(){{
+          const value = $(this).attr('data-filter');
+          if (value == 'all'){
+            $('.product').show('1000');
+          }
+          else{
+            $('.product').not('.'+value).hide('1000');
+            $('.product').filter('.'+value).show('1000');
+          }
+        }})
+      })
+    </script>
 </body>
 </html>

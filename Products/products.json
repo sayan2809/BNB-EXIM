@@ -1,37 +1,49 @@
 [
     {
-       "image": "products/01.jpg",
+       "id": "1",
+       "image": "../Images/products/01.jpg",
        "title": "Product title",
+       "category": "general",
        "description": "Lorem ipsum dolor sit amet consectetur.",
        "price": "9,99"
     },
     {
-       "image": "products/02.jpg",
-       "title": "Product title",
+      "id": "2",
+      "image": "../Images/products/01.jpg",
+      "title": "Product title",
+      "category": "branded",
        "description": "Lorem ipsum dolor sit amet consectetur.",
        "price": "9,99"
     },
     {
-       "image": "products/03.jpg",
-       "title": "Product title",
+      "id": "3",
+      "image": "../Images/products/01.jpg",
+      "title": "Product title",
+      "category": "general",
        "description": "Lorem ipsum dolor sit amet consectetur.",
        "price": "9,99"
     },
     {
-       "image": "products/04.jpg",
-       "title": "Product title",
+      "id": "4",
+      "image": "../Images/products/01.jpg",
+      "title": "Product title",
+      "category": "general",
        "description": "Lorem ipsum dolor sit amet consectetur.",
        "price": "9,99"
     },
     {
-       "image": "products/05.jpg",
-       "title": "Product title",
+      "id": "5",
+      "image": "../Images/products/01.jpg",
+      "title": "Product title",
+      "category": "general",
        "description": "Lorem ipsum dolor sit amet consectetur.",
        "price": "9,99"
     },
     {
-       "image": "products/06.jpg",
-       "title": "Product title",
+      "id": "6",
+      "image": "../Images/products/01.jpg",
+      "title": "Product title",
+      "category": "general",
        "description": "Lorem ipsum dolor sit amet consectetur.",
        "price": "9,99"
     }
