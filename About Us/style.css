@@ -664,6 +664,13 @@ button:active {
   color: var(--main-color);
 }
 
+.footer ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
 .footer li {
   line-height: 30px;
 }
