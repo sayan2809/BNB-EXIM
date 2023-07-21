@@ -268,7 +268,7 @@ section {
   cursor: pointer;
   transition: color 0.15s ease-in;
 }
-.tab a{
+.tab a {
   text-decoration: none;
   color: black;
 }
@@ -760,7 +760,7 @@ body {
 
 .text-box2 {
   box-sizing: border-box;
-  width: 1000px;
+  width: 800px;
   height: 650px;
   background: rgba(217, 217, 217, 0.58);
   border: 1px solid white;
@@ -777,7 +777,7 @@ body {
 }
 
 .contactpic {
-  width: 500px;
+  width: 700px;
 }
 
 /*contact-us end*/
