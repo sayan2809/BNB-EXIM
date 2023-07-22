@@ -52,8 +52,8 @@
   
         <!--search bar-->
         <div class="search">
-          <input placeholder="Search for products..." type="text" />
-          <button type="submit">Go</button>
+          <input id="search-input" placeholder="Search for products..." type="text" />
+          <button id="search" type="submit">Go</button>
         </div>
       </div>
   
@@ -78,14 +78,14 @@
   
         <div class="container">
           <div class="tabs">
-            <input type="radio" id="radio-1" name="tabs" checked="" />
-            <label class="tab" for="radio-1"><a href="./index.html">HOME</a></label>
-            <input type="radio" id="radio-2" name="tabs" />
-            <label class="tab" for="radio-2"><a href="./Products/products.html">PRODUCTS</a></label>
+            <input type="radio" id="radio-1" name="tabs" />
+            <label class="tab" for="radio-1"><a href="../index.html">HOME</a></label>
+            <input type="radio" id="radio-2" name="tabs" checked="" />
+            <label class="tab" for="radio-2"><a href="../Products/products.html">PRODUCTS</a></label>
             <input type="radio" id="radio-3" name="tabs" />
-            <label class="tab" for="radio-3"><a href="./About Us/index.html">ABOUT US</a></label>
+            <label class="tab" for="radio-3"><a href="../About Us/index.html">ABOUT US</a></label>
             <input type="radio" id="radio-4" name="tabs" />
-            <label class="tab" for="radio-4"><a href="./Contact Us/index.html">CONTACT US</a></label>
+            <label class="tab" for="radio-4"><a href="../Contact Us/index.html">CONTACT US</a></label>
             <span class="glider"></span>
           </div>
         </div>
@@ -237,6 +237,25 @@
           }
         }})
       })
+    </script>
+    <script type="text/javascript">
+      document.getElementById("search").addEventListener("click", () => {
+        //initializations
+        let searchInput = document.getElementById("search-input").value;
+        let elements = document.querySelectorAll(".title");
+        let cards = document.querySelectorAll(".product");
+        //loop through all elements
+        elements.forEach((element, index) => {
+          //check if text includes the search value
+          if (element.innerText.includes(searchInput.toUpperCase())) {
+            //display matching card
+            cards[index].classList.remove("hide");
+          } else {
+            //hide others
+            cards[index].classList.add("hide");
+          }
+        });
+      });
     </script>
 </body>
 </html>

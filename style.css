@@ -720,7 +720,7 @@ body {
 .question {
   resize: none;
   height: 220px;
-  width: 500px;
+  width: 85%;
   margin-top: 5px;
   background: #ffffff;
   border: 1px solid #cccccc;
