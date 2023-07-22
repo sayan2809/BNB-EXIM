@@ -380,8 +380,16 @@ body {
 
 .contact_us {
   background-color: #f1f1f1;
-  padding: 70px 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
 }
+.container1{
+  width: 60%;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  }
 
 .contact_inner {
   background-color: #fff;
