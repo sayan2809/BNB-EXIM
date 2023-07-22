@@ -505,28 +505,21 @@ button:active {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 .feature-products {
   margin-top: 30px;
-  width: 85%;
+  width: 100%;
   align-self: center;
 }
 
 .product-text {
   font-size: 40px;
   margin-bottom: 20px;
+  margin-left: 80px;
 }
 
-.product-detail {
-  color: var(--main-color);
-  font-size: 20px;
-}
-
-.heavy-products {
-  margin: 10px;
-  font-size: 20px;
-}
 
 /* about us */
 .about {
@@ -966,5 +959,3 @@ body {
 .footer li {
   line-height: 30px;
 }
-
-/*footer end*/
