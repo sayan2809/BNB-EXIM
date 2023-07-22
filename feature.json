@@ -30,14 +30,6 @@
       "category": "generic",
       "description": "Lorem ipsum dolor sit amet consectetur.",
       "price": "9,99"
-    },
-    {
-      "id": "5",
-      "image": "../Images/products/azirite-500.jpg",
-      "title": "Product title",
-      "category": "generic",
-      "description": "Lorem ipsum dolor sit amet consectetur.",
-      "price": "9,99"
     }
   ]
   
