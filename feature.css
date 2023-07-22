@@ -24,15 +24,17 @@
   }
   .products {
     display: grid;
-    grid-template-columns: auto auto auto auto auto !important;
+    grid-template-columns: auto auto auto auto !important;
     gap: 25px !important;
+    justify-content: center;
+    align-items: center;
     margin: 50px auto;
     max-width: 100%;
     padding: 20px;
   }
   .product {
     max-width: 300px;
-    
+    align-self: center;
     padding: 10px;
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
   }
