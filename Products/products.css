@@ -103,9 +103,7 @@ section ul {
 }
 
 .category {
-  color: #4e99e9;
-  font-weight: 600;
-  text-align: center;
+  display: none;
 }
 
 .popup {
