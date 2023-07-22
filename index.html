@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>E&E EXIM</title>
-    <link rel="icon" href="./Images/Logo.png" type="image/icon type">
+    <title>B&B EXIM</title>
+    <link rel="icon" href="./Images/title-icon.png" type="image/icon type">
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="./feature.css" />
     <script
@@ -272,7 +272,7 @@
       </p>
 
       <h1 class="testimony-name">Author Name</h1>
-      
+
    
   </div>
 </section>
@@ -333,8 +333,10 @@
 
     <!-- contact us -->
     <section class="contact-us">
+      <form action="https://formsubmit.co/eb59c4450107fb1184ecba6842fdbb5c" method="POST">
       <div class="wrapper">
         <div class="text-box2">
+         
           <h2>Ask Us Question</h2>
           <label for="name" class="text">Name<span>*</span></label
           ><input
@@ -361,10 +363,15 @@
           /><br /><label for="question" class="text"
             >Question<span>*</span></label
           ><textarea
-            class="question"
+            type="text"
+            id="question"
+            class="input"
+            name="question"
             placeholder="Enter your question..."
+            required=""
           ></textarea
           ><br /><input type="submit" class="button" value="Submit" />
+        
         </div>
         <img
           class="contactpic"
@@ -373,6 +380,7 @@
           srcset=""
         />
       </div>
+    </form>
     </section>
 <!-- footer -->
     <footer class="footerr">
