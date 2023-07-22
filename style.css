@@ -374,7 +374,7 @@ button:active {
   width: 100%;
   height: auto;
 }
-.content {
+.content1 {
   position: absolute;
   z-index: 99;
   top: 280px;

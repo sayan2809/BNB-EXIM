@@ -36,7 +36,12 @@
     max-width: 300px;
     align-self: center;
     padding: 10px;
-    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    background: rgba(217, 217, 217, 0.58);
+    border: 1px solid white;
+    box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+    backdrop-filter: blur(6px);
+    border-radius: 17px;
   }
   .product img {
     width: 100%;
