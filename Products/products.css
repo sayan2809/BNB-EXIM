@@ -24,11 +24,28 @@ h2 {
 .product {
   max-width: 300px;
   padding: 10px;
-  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+  position: relative;
+  text-align: center;
+  margin-right: 20px;
+  cursor: pointer;
+  box-sizing: border-box;
+  background: rgba(217, 217, 217, 0.58);
+  border: 1px solid white;
+  box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+  backdrop-filter: blur(6px);
+  border-radius: 17px;
+  transition: all 0.5s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  color: black;
 }
 .product img {
   width: 100%;
   display: block;
+  border-radius: 17px;
 }
 .product .title {
   text-align: center;
@@ -105,4 +122,3 @@ section ul {
 .category {
   display: none;
 }
-
