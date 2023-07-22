@@ -25,7 +25,7 @@
   .products {
     display: grid;
     grid-template-columns: auto auto auto auto auto !important;
-    gap: 0 !important;
+    gap: 25px !important;
     margin: 50px auto;
     max-width: 100%;
     padding: 20px;
