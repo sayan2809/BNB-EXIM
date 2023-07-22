@@ -1,7 +1,7 @@
 [
   {
     "id": "1",
-    "image": "../Images/products/01.jpg",
+    "image": "../Images/products/aceclodol-sp.jpg",
     "title": "Product title",
     "category": "generic",
     "description": "Lorem ipsum dolor sit amet consectetur.",
@@ -9,15 +9,15 @@
   },
   {
     "id": "2",
-    "image": "../Images/products/01.jpg",
+    "image": "../Images/products/acemed-mr.jpg",
     "title": "Product title",
-    "category": "branded",
+    "category": "generic",
     "description": "Lorem ipsum dolor sit amet consectetur.",
     "price": "9,99"
   },
   {
     "id": "3",
-    "image": "../Images/products/01.jpg",
+    "image": "../Images/products/disodium-hydrogen-citrate.jpg",
     "title": "Product title",
     "category": "generic",
     "description": "Lorem ipsum dolor sit amet consectetur.",
@@ -25,7 +25,7 @@
   },
   {
     "id": "4",
-    "image": "../Images/products/01.jpg",
+    "image": "../Images/products/azirite-250mg.jpg",
     "title": "Product title",
     "category": "generic",
     "description": "Lorem ipsum dolor sit amet consectetur.",
@@ -33,7 +33,7 @@
   },
   {
     "id": "5",
-    "image": "../Images/products/01.jpg",
+    "image": "../Images/products/azirite-500.jpg",
     "title": "Product title",
     "category": "generic",
     "description": "Lorem ipsum dolor sit amet consectetur.",
@@ -41,7 +41,7 @@
   },
   {
     "id": "6",
-    "image": "../Images/products/01.jpg",
+    "image": "../Images/products/azithromycin-tablets.jpg",
     "title": "Product title",
     "category": "generic",
     "description": "Lorem ipsum dolor sit amet consectetur.",
@@ -49,7 +49,7 @@
   },
   {
     "id": "7",
-    "image": "../Images/products/01.jpg",
+    "image": "../Images/products/cefdot-200.jpg",
     "title": "Product title",
     "category": "generic",
     "description": "Lorem ipsum dolor sit amet consectetur.",
@@ -57,7 +57,7 @@
   },
   {
     "id": "8",
-    "image": "../Images/products/01.jpg",
+    "image": "../Images/products/cefx-o-200.jpg",
     "title": "Product title",
     "category": "generic",
     "description": "Lorem ipsum dolor sit amet consectetur.",
@@ -65,7 +65,7 @@
   },
   {
     "id": "9",
-    "image": "../Images/products/01.jpg",
+    "image": "../Images/products/Cetiz-Syrup.png",
     "title": "Product title",
     "category": "generic",
     "description": "Lorem ipsum dolor sit amet consectetur.",
