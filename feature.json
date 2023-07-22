@@ -1,5 +1,4 @@
 [
-<<<<<<< HEAD
     {
       "id": "1",
       "image": "../Images/products/aceclodol-sp.jpg",
@@ -34,46 +33,3 @@
     }
   ]
   
-=======
-  {
-    "id": "1",
-    "image": "../Images/products/aceclodol-sp.jpg",
-    "title": "Product title",
-    "category": "generic",
-    "description": "Lorem ipsum dolor sit amet consectetur.",
-    "price": "9,99"
-  },
-  {
-    "id": "2",
-    "image": "../Images/products/acemed-mr.jpg",
-    "title": "Product title",
-    "category": "generic",
-    "description": "Lorem ipsum dolor sit amet consectetur.",
-    "price": "9,99"
-  },
-  {
-    "id": "3",
-    "image": "../Images/products/disodium-hydrogen-citrate.jpg",
-    "title": "Product title",
-    "category": "generic",
-    "description": "Lorem ipsum dolor sit amet consectetur.",
-    "price": "9,99"
-  },
-  {
-    "id": "4",
-    "image": "../Images/products/azirite-250mg.jpg",
-    "title": "Product title",
-    "category": "generic",
-    "description": "Lorem ipsum dolor sit amet consectetur.",
-    "price": "9,99"
-  },
-  {
-    "id": "5",
-    "image": "../Images/products/azirite-500.jpg",
-    "title": "Product title",
-    "category": "generic",
-    "description": "Lorem ipsum dolor sit amet consectetur.",
-    "price": "9,99"
-  }
-]
->>>>>>> 02bfef1cd3995cd0edd9590cb9cd09938e872bc9
