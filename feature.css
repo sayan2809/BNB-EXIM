@@ -74,45 +74,4 @@
   .product .cart a i {
     padding-left: 10px;
   }
-  .view-more {
-    margin: 0 auto;
-    max-width: 1240px;
-    padding: 20px;
-    text-align: center;
-  }
-  .view-more button {
-    padding: 10px 25px;
-  }
-  
-  section {
-    padding: 20px;
-    width: 90%;
-    margin: 40px auto;
-    margin-top: 30px !important;
-  }
-  section ul {
-    display: flex;
-    margin-bottom: 10px;
-  }
-  .list {
-    list-style: none;
-    background-color: #eee;
-    padding: 8px 20px;
-    margin: 5px;
-    letter-spacing: 1px;
-    cursor: pointer;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-  }
-  .list.active {
-    background-color: #4e99e9;
-    color: #fff;
-  }
-  
-  .category {
-    display: none;
-  }
   
