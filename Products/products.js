@@ -17,7 +17,7 @@ http.onload = function(){
                   <span>${item.price}</span>
                   <span>$</span>
                </p>
-               <a href="https://wa.me/919804972432/?text=Hi%20there,%20I%20would%20like%20to%20buy%20%0A%0A*${item.title}*%0A%0A_${item.category}_%0A%0A&#96;&#96;&#96;${item.description}&#96;&#96;&#96;%0A%0A*$${item.price}*" class="cart">Order Now<i class="bx bx-cart-alt"></i></a>
+               <a href="https://wa.me/919804972432/?text=Hi%20there,%20I%20would%20like%20to%20buy%20%0A%0A*${item.title}*%0A%0A_${item.category}_%0A%0A&#96;&#96;&#96;${item.description}&#96;&#96;&#96;%0A%0A${item.quantity}%0A%0A*$${item.price}*" class="cart">Order Now<i class="bx bx-cart-alt"></i></a>
             </div>
          `;
       }
