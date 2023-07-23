@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="products.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>B&B EXIM</title>
+    <link rel="icon" href="./Images/title-icon.png" type="image/icon type">
     <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="products.css" />
     <script
       src="https://kit.fontawesome.com/b5def18cb9.js"
       crossorigin="anonymous"
@@ -17,9 +19,11 @@
       rel="stylesheet"
       href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
     />
-    <title>PRODUCTS - E&E EXIM</title>
+    <script src="https://unpkg.com/scrollreveal"></script>
+  </head>
 </head>
 <body>
+    <!--header-->
 
     <div class="header">
         <!--social media links-->
@@ -51,11 +55,9 @@
         </div>
   
         <!--search bar-->
-        
-
         <form id="searchForm" class="search" action="results.html">
-          <input type="text" id="searchInput" placeholder="Search for products...">
-          <button type="submit">Search</button>
+            <input type="text" id="searchInput" placeholder="Search for products...">
+            <button type="submit">Search</button>
         </form>
       </div>
   
@@ -80,14 +82,14 @@
   
         <div class="container">
           <div class="tabs">
-            <input type="radio" id="radio-1" name="tabs" />
-            <label class="tab" for="radio-1"><a href="../index.html">HOME</a></label>
-            <input type="radio" id="radio-2" name="tabs" checked="" />
-            <label class="tab" for="radio-2"><a href="../Products/products.html">PRODUCTS</a></label>
+            <input type="radio" id="radio-1" name="tabs" checked="" />
+            <label class="tab" for="radio-1"><a href="./index.html">HOME</a></label>
+            <input type="radio" id="radio-2" name="tabs" />
+            <label class="tab" for="radio-2"><a href="./Products/products.html">PRODUCTS</a></label>
             <input type="radio" id="radio-3" name="tabs" />
-            <label class="tab" for="radio-3"><a href="../About Us/index.html">ABOUT US</a></label>
+            <label class="tab" for="radio-3"><a href="./About Us/index.html">ABOUT US</a></label>
             <input type="radio" id="radio-4" name="tabs" />
-            <label class="tab" for="radio-4"><a href="../Contact Us/index.html">CONTACT US</a></label>
+            <label class="tab" for="radio-4"><a href="./Contact Us/index.html">CONTACT US</a></label>
             <span class="glider"></span>
           </div>
         </div>
@@ -102,17 +104,13 @@
 
 
 
-      <section>
-        <ul>
-          <li class="list active" data-filter="all">All</li>
-          <li class="list" id="generic" data-filter="generic">Generic medicines</li>
-          <li class="list" data-filter="branded">Branded medicines</li>
-          <li class="list" data-filter="surgerical">Surgerical equipments</li>
-          <li class="list" data-filter="heavy">Heavy medical equipments</li>
-          <li class="list" data-filter="other">Other medical accessories</li>
-        </ul>
+      <!-- Search Results -->
+    <h1>Search Results</h1>
+    <div id="resultsContainer">
         <div class="products"></div>
-      </section>
+        <!-- The search results will be displayed here -->
+    </div>
+
 
 
 
@@ -121,7 +119,7 @@
         <div class="footer">
           <div class="footer__head">
             <div class="about-logo">
-              <h1 class="about-logo-txt" style="color: #4e99e9;">BNB EXIM</h1>
+              <h1 class="about-logo-txt" style="color: var(--main-color);">BNB EXIM</h1>
             </div></a
             >
             <p class="footer-heading">
@@ -149,7 +147,7 @@
                   <li>
                     <i class="ri-mail-line"></i
                     ><span
-                      ><a href="mailto:abcd@gmail.com">bnbexim@gmail.com</a></span
+                      ><a href="mailto:bnbexim@gmail.com">bnbexim@gmail.com</a></span
                     >
                   </li>
                   <li>
@@ -201,67 +199,55 @@
           </div>
         </div>
         <div class="footer__bottom">
-          <span>© 2023 Logo</span><span><a href="">Terms</a></span
+          <span>© 2023 B&B EXIM</span><span><a href="">Terms</a></span
           ><span><a href="">Privacy</a></span>
           <span><a href="">Contact us</a></span>
         </div>
       </footer>
 
+    <script>
+        // Read the query parameter from the URL
+        const queryParams = new URLSearchParams(window.location.search);
+        const searchQuery = queryParams.get("q");
 
-      <script>
-        const listItems = document.querySelectorAll('li');
-
-        listItems.forEach((item) => {
-          item.addEventListener('click', () => {
-            listItems.forEach((li) => li.classList.remove('active'));
-            item.classList.add('active');
-          });
-        });
-      </script>
-      <script
-      src="https://code.jquery.com/jquery-3.7.0.js"
-      integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
-      crossorigin="anonymous"></script>
-    <script src="products.js"></script>
-    <script type="text/javascript">
-      $(document).ready(function(){
-        $('.list').click(function(){{
-          const value = $(this).attr('data-filter');
-          if (value == 'all'){
-            $('.product').show('1000');
-          }
-          else{
-            $('.product').not('.'+value).hide('1000');
-            $('.product').filter('.'+value).show('1000');
-          }
-        }})
-      })
-    </script>
-    <script type="text/javascript">
-      document.getElementById("search").addEventListener("click", () => {
-        //initializations
-        let searchInput = document.getElementById("search-input").value;
-        let elements = document.querySelectorAll(".title");
-        let cards = document.querySelectorAll(".product");
-        //loop through all elements
-        elements.forEach((element, index) => {
-          //check if text includes the search value
-          if (element.innerText.includes(searchInput.toUpperCase())) {
-            //display matching card
-            cards[index].classList.remove("hide");
-          } else {
-            //hide others
-            cards[index].classList.add("hide");
-          }
-        });
-      });
+        // Load and display the search results
+        fetch('products.json')
+            .then(response => response.json())
+            .then(data => {
+                const resultsContainer = document.getElementById("resultsContainer");
+                const matchingResults = data.filter(item => item.title.toLowerCase().includes(searchQuery.toLowerCase()) || item.description.toLowerCase().includes(searchQuery.toLowerCase()) || item.category.toLowerCase().includes(searchQuery.toLowerCase()));
+                let output = "";
+                if (matchingResults.length === 0) {
+                    resultsContainer.innerHTML = "No results found.";
+                } else {
+                    matchingResults.forEach(result => {
+                        output += `
+                            <div class="product ${result.category}">
+                            <img src="${result.image}" alt="${result.description}">
+                            <p class="title">${result.title}</p>
+                            <p class="category">${result.category}</p>
+                            <p class="description">${result.description}</p>
+                            <p class="price">
+                                <span>${result.price}</span>
+                                <span>$</span>
+                            </p>
+                            <a href="https://wa.me/919804793204/?text=Hi%20there,%20I%20would%20like%20to%20buy%20%0A%0A*${result.title}*%0A%0A_${result.category}_%0A%0A&#96;&#96;&#96;${result.description}&#96;&#96;&#96;%0A%0A*$${result.price}*" class="cart">Order Now<i class="bx bx-cart-alt"></i></a>
+                            </div>
+                        `;
+                        document.querySelector(".products").innerHTML = output;
+                    });
+                }
+            })
+            .catch(error => {
+                console.error('Error fetching data:', error);
+            });
     </script>
     <script>
-      document.getElementById("searchForm").addEventListener("submit", function(event) {
-          event.preventDefault();
-          const searchQuery = document.getElementById("searchInput").value;
-          window.location.href = "results.html?q=" + encodeURIComponent(searchQuery);
-      });
-  </script>
+        document.getElementById("searchForm").addEventListener("submit", function(event) {
+            event.preventDefault();
+            const searchQuery = document.getElementById("searchInput").value;
+            window.location.href = "results.html?q=" + encodeURIComponent(searchQuery);
+        });
+    </script>
 </body>
 </html>

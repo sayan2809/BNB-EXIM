@@ -52,10 +52,10 @@
       </div>
 
       <!--search bar-->
-      <div class="search">
-        <input placeholder="Search for products..." type="text" />
-        <button type="submit">Go</button>
-      </div>
+      <form id="searchForm" class="search" action="results.html">
+        <input type="text" id="searchInput" placeholder="Search for products...">
+        <button type="submit">Search</button>
+      </form>
     </div>
 
     <!--navbar-->
@@ -326,6 +326,14 @@
           <span><a href="">Contact us</a></span>
         </div>
       </footer>
+
+      <script>
+        document.getElementById("searchForm").addEventListener("submit", function(event) {
+            event.preventDefault();
+            const searchQuery = document.getElementById("searchInput").value;
+            window.location.href = "../Products/results.html?q=" + encodeURIComponent(searchQuery);
+        });
+      </script>
   
       <script src="script.js"></script>
     </body>
