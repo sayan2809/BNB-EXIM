@@ -587,7 +587,7 @@ button:active {
   margin-top: 100px;
 }
 
-.testimonials{
+.testimonials {
   display: flex;
   flex-direction: row;
   overflow: scroll;
@@ -596,7 +596,6 @@ button:active {
 .testimonials::-webkit-scrollbar {
   display: none;
 }
-
 
 .testi-heading {
   font-size: 38px;
@@ -643,7 +642,7 @@ button:active {
   margin-right: 20px;
   margin-bottom: 25px;
 }
-.rating{
+.rating {
   background: rgba(255, 194, 102, 0.15) !important;
   border-radius: 8px;
   padding-bottom: 1px;
