@@ -576,12 +576,27 @@ button:active {
 /* testimonial */
 
 .testimonial {
-  display: flex;
+  display: grid;
+  grid-template-columns: auto auto;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   margin: 150px;
+  margin-right: 0;
+  margin-left: 100px;
+  margin-top: 100px;
 }
+
+.testimonials{
+  display: flex;
+  flex-direction: row;
+  overflow: scroll;
+  padding: 50px;
+}
+.testimonials::-webkit-scrollbar {
+  display: none;
+}
+
 
 .testi-heading {
   font-size: 38px;
@@ -604,8 +619,9 @@ button:active {
 
 .testimonial-main {
   box-sizing: border-box;
-  width: 1500px;
+  min-width: 350px;
   height: 350px;
+  margin-right: 40px;
   background: rgba(217, 217, 217, 0.58);
   border: 1px solid white;
   box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
