@@ -778,7 +778,10 @@ body {
   text-align: center;
   margin-top: 15px;
 }
-
+.wrapper1{
+  display: flex;
+  flex-direction: row;
+}
 .text {
   font-style: normal;
   font-weight: 700;
@@ -844,7 +847,7 @@ body {
 
 .text-box2 {
   box-sizing: border-box;
-  width: 800px;
+  width: 50%;
   height: 650px;
   background: rgba(217, 217, 217, 0.58);
   border: 1px solid white;
@@ -861,7 +864,7 @@ body {
 }
 
 .contactpic {
-  width: 700px;
+  width: 50%;
 }
 
 /*contact-us end*/
