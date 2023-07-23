@@ -105,11 +105,13 @@
 
 
       <!-- Search Results -->
-    <h1>Search Results</h1>
-    <div id="resultsContainer">
-        <div class="products"></div>
-        <!-- The search results will be displayed here -->
-    </div>
+      <section>
+        <h1 class="result_text">Search Results</h1>
+        <div class="products">
+          <!-- The search results will be displayed here -->
+        </div>
+      </section>
+        
 
 
 
@@ -214,7 +216,7 @@
         fetch('products.json')
             .then(response => response.json())
             .then(data => {
-                const resultsContainer = document.getElementById("resultsContainer");
+                const resultsContainer = document.getElementById("products");
                 const matchingResults = data.filter(item => item.title.toLowerCase().includes(searchQuery.toLowerCase()) || item.description.toLowerCase().includes(searchQuery.toLowerCase()) || item.category.toLowerCase().includes(searchQuery.toLowerCase()));
                 let output = "";
                 if (matchingResults.length === 0) {

@@ -126,3 +126,7 @@ section ul {
 .category {
   display: none;
 }
+
+.result_text{
+  font-size: 35px;
+}
