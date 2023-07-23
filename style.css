@@ -584,11 +584,11 @@ button:active {
 }
 
 .testi-heading {
-  font-size: 40px;
+  font-size: 38px;
 }
 
 .testi-para {
-  font-size: 25px;
+  font-size: 20px;
   text-align: left;
   margin-top: 20px;
   margin-left: 20px;
@@ -621,10 +621,22 @@ button:active {
 }
 
 .testimony-para {
-  font-size: 25px;
+  font-size: 18px;
   text-align: left;
   margin-left: 20px;
   margin-right: 20px;
+  margin-bottom: 25px;
+}
+.rating{
+  background: rgba(255, 194, 102, 0.15) !important;
+  border-radius: 8px;
+  padding-bottom: 1px;
+  margin-bottom: 3px;
+  display: inline-block;
+  padding-left: 2px;
+  padding-right: 2px;
+  color: rgb(255, 193, 104) !important;
+  margin-bottom: 10px;
 }
 
 /* FAQs */
