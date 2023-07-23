@@ -2,33 +2,37 @@
   {
     "id": "1",
     "image": "../Images/products/aceclodol-sp.jpg",
-    "title": "Product title",
+    "title": "ACECLODOL-SP TAB(GOLDEN)",
     "category": "generic",
-    "description": "Lorem ipsum dolor sit amet consectetur.",
+    "description": "Aceclofenac 100mg, Paracetamol 325mg, Serratiopeptidase 10mg",
+    "quantity": "200 Tablets",
     "price": "9,99"
   },
   {
     "id": "2",
     "image": "../Images/products/acemed-mr.jpg",
-    "title": "Product title",
+    "title": "ACEMED-MR TABS",
     "category": "generic",
-    "description": "Lorem ipsum dolor sit amet consectetur.",
+    "description": "Aceclofenac, Paracetamol and Chlorzoxazone",
+    "quantity": "200 Tablets",
     "price": "9,99"
   },
   {
     "id": "3",
     "image": "../Images/products/disodium-hydrogen-citrate.jpg",
-    "title": "Product title",
+    "title": "ALKAMED SYRUP",
     "category": "generic",
-    "description": "Lorem ipsum dolor sit amet consectetur.",
+    "description": "Disodium Hydrogen Citrate 1.40gm",
+    "quantity": "200 Tablets",
     "price": "9,99"
   },
   {
     "id": "4",
     "image": "../Images/products/azirite-250mg.jpg",
-    "title": "Product title",
+    "title": "AZIRITE-250 TAB",
     "category": "generic",
-    "description": "Lorem ipsum dolor sit amet consectetur.",
+    "description": "Azithromycin 250",
+    "quantity": "200 Tablets",
     "price": "9,99"
   }
 ]
