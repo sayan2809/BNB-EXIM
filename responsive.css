@@ -1,4 +1,13 @@
 @media only screen and (max-width: 600px) {
+  .logo-img{
+    width: 40px;
+  }
+  .logo-txt{
+    font-size: 20px;
+  }
+  .main #shop-now {
+    display: none;
+  }
   .wrapper1 {
     flex-direction: column;
     justify-content: center;
@@ -20,6 +29,16 @@
   }
   #searchForm {
     display: none;
+  }
+  .search2{
+    display: block !important;
+  }
+  .search input[type="text"] {
+    width: 170px;
+    padding: 5px;
+  }
+  .search button[type="submit"]{
+    padding: 5px 10px;
   }
   .tabs {
     display: none;

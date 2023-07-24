@@ -206,6 +206,9 @@ section {
   display: flex;
   flex-direction: row;
   align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
 }
 
 .logo-img {
@@ -988,4 +991,9 @@ body {
 
 .footer li {
   line-height: 30px;
+}
+
+
+.search2{
+  display: none;
 }
