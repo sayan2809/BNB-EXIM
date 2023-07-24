@@ -100,12 +100,44 @@
           <span class="glider"></span>
         </div>
       </div>
+      <div class="mobile_nav">
+        <div class="topnav" id="myTopnav">
+          <a href="#home" class="active1">HOME</a>
+          <a href="#news">PRODUCTS</a>
+          <a href="#contact">ABOUT US</a>
+          <a href="#about">CONTACT US</a>
+          <div class="social2">
+            <ul class="wrapper">
+              <li class="icon facebook">
+                <!-- <span class="tooltip">Facebook</span> -->
+                <span><i class="fab fa-facebook-f"></i></span>
+              </li>
+              <li class="icon twitter">
+                <!-- <span class="tooltip">Twitter</span> -->
+                <span><i class="fab fa-twitter"></i></span>
+              </li>
+              <li class="icon instagram">
+                <!-- <span class="tooltip">Instagram</span> -->
+                <span><i class="fab fa-instagram"></i></span>
+              </li>
+              <li class="icon whatsapp">
+                <!-- <span class="tooltip">Whatsapp</span> -->
+                <span><i class="fab fa-whatsapp"></i></span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
 
       <!-- nav button -->
 
       <div class="main">
         <button id="shop-now" onclick="location.href='./Products/products.html'">Shop Now!</button>
-        <div class="bx bx-menu" id="menu-icon"></div>
+      </div>
+      <div class="menu">
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
       </div>
     </div>
 
@@ -571,6 +603,16 @@ and a hassle-free partnership.
           window.location.href = "../Products/results.html?q=" + encodeURIComponent(searchQuery);
       });
   </script>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script>
 
     <script src="script.js"></script>
   </body>
