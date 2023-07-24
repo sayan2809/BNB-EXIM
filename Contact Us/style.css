@@ -446,6 +446,7 @@ body {
   width: 340px;
   padding: 40px;
   border-radius: 25px 0 0 25px;
+  color: white !important;
 }
 .contact_info_sec h4 {
   letter-spacing: 1px;
