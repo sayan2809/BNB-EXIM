@@ -992,3 +992,8 @@ body {
 .footer li {
   line-height: 30px;
 }
+
+
+.search2{
+  display: none;
+}
