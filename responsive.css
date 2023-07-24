@@ -216,5 +216,43 @@
         margin-bottom: 20px;
         font-size: 36px;
     }
+    .contact_field {
+        padding: 50px 0;
+    }
+    .map_sec{
+        padding: 50px 0;
+        
+    }
+    .map_inner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .map_bind{
+        width: 90%;
+        height: 10%;
+    }
+    .container1{
+        width: 90%;
+    }
+    .contact_field {
+        padding-left: 15px;
+        padding-right: 0;
+    }
+
+    .contact_info_sec {
+        display: none;
+    }
+    .info_sec_1{
+        display: block;
+        position: relative;
+        width: 100%;
+        padding: 20px;
+        height: fit-content;
+    }
+    .info_single{
+        margin: 10px 0;
+    }
 
 }
