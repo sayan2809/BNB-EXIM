@@ -82,29 +82,29 @@
   },
   {
     "id": "10",
-    "image": "../Images/products/Cetiz-Syrup.png",
-    "title": "CETIZ SYRUP",
+    "image": "../Images/products/cetirizine-hydrochloride.jpg",
+    "title": "CETIZ-TAB",
     "category": "generic",
-    "description": "Cetirizine dihydrochloride 5mg",
-    "quantity": "200 Tablets",
+    "description": "Cetirizine Hydrochloride 10mg",
+    "quantity": "500 Tablets",
     "price": "9,99"
   },
   {
     "id": "11",
-    "image": "../Images/products/Cetiz-Syrup.png",
-    "title": "CETIZ SYRUP",
+    "image": "../Images/products/CLEAR-KIT TAB.jpg",
+    "title": "CLEAR-KIT TAB",
     "category": "generic",
-    "description": "Cetirizine dihydrochloride 5mg",
-    "quantity": "200 Tablets",
+    "description": "Mifepristone 200mg, Misoprostol 200mg",
+    "quantity": "50 Tablets",
     "price": "9,99"
   },
   {
     "id": "12",
-    "image": "../Images/products/Cetiz-Syrup.png",
-    "title": "CETIZ SYRUP",
+    "image": "../Images/products/COLLINCOFF-LS SYP.jpg",
+    "title": "COLLINCOFF-LS SYP",
     "category": "generic",
-    "description": "Cetirizine dihydrochloride 5mg",
-    "quantity": "200 Tablets",
+    "description": "Ambroxol, Levosalbutamol /Levalbuterol, Guaifenesin",
+    "quantity": "100 ML",
     "price": "9,99"
   },
   {
