@@ -59,6 +59,7 @@ h2 {
   line-height: 22px;
 }
 .product .price {
+  display: none;
   text-align: center;
   font-weight: 600;
   font-size: 28px;
@@ -119,8 +120,10 @@ section ul {
   text-align: center;
   justify-content: center;
 }
-.list:hover{
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+.list:hover {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+    rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
 }
 .list.active {
   background-color: #4e99e9;
@@ -131,11 +134,11 @@ section ul {
   display: none;
 }
 
-.result_text{
+.result_text {
   font-size: 35px;
 }
 
-.quantity{
+.quantity {
   margin-top: 8px;
   background: rgba(0, 136, 255, 0.15) !important;
   border-radius: 8px;
@@ -148,25 +151,17 @@ section ul {
   color: #0e0e8a !important;
 }
 
-
-
-
-
-
-
-
-
 /* RESPONSIVE */
 
 @media only screen and (max-width: 600px) {
-  .products{
+  .products {
     overflow: hidden !important;
     width: 100%;
     grid-template-columns: auto auto;
     gap: 0;
     padding: 0 !important;
   }
-  section{
+  section {
     margin: 0;
     padding: 0;
     width: 100%;
@@ -175,4 +170,3 @@ section ul {
     height: 95% !important;
   }
 }
-
