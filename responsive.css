@@ -1,8 +1,8 @@
 @media only screen and (max-width: 600px) {
-  .logo-img{
+  .logo-img {
     width: 40px;
   }
-  .logo-txt{
+  .logo-txt {
     font-size: 20px;
   }
   .main #shop-now {
@@ -30,14 +30,14 @@
   #searchForm {
     display: none;
   }
-  .search2{
+  .search2 {
     display: block !important;
   }
   .search input[type="text"] {
     width: 170px;
     padding: 5px;
   }
-  .search button[type="submit"]{
+  .search button[type="submit"] {
     padding: 5px 10px;
   }
   .tabs {
@@ -53,11 +53,11 @@
   .hero-para {
     color: white;
     width: 70%;
-    font-size: 12px;
+    font-size: 14px;
     margin-top: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     margin-left: 30px;
-    line-height: 12px;
+    line-height: 14px;
     text-shadow: 2px 2px 10px black;
   }
   .hero-button {
@@ -150,6 +150,40 @@
   .about {
     margin-top: 40px;
   }
+
+  .about-logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .about-logo-img {
+    width: 150px;
+  }
+  .about-logo-txt {
+    font-size: 36px;
+  }
+
+  .about-logo-txt1 {
+    font-size: 36px;
+  }
+
+  .about-heading {
+    font-size: 25px;
+  }
+
+  .about-para {
+    line-height: 20px;
+  }
+
+  .testi-heading {
+    font-size: 25px;
+  }
+
+  .testi-para {
+    font-size: 16px;
+    line-height: 20px;
+  }
   .about-us1 {
     flex-direction: column;
   }
@@ -177,6 +211,7 @@
   }
   .faq {
     margin-top: 0;
+    font-size: 36px;
   }
   article {
     width: 90%;
@@ -293,5 +328,21 @@
   }
   .info_single {
     margin: 10px 0;
+  }
+
+  .footer-heading {
+    width: 80%;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  .typewriter h1 {
+    margin-top: 10px;
+  }
+
+  #shop-now {
+    font-size: 12px;
+    padding: 6px 6px;
+    min-height: 0px;
   }
 }
