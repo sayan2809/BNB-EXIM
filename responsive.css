@@ -89,7 +89,7 @@
         overflow: scroll;
         padding: 0;
         justify-content: flex-start;
-        padding: 20px !important;
+        padding: 13px !important;
         padding-bottom: 40px !important;
         margin-top: 0;
     }
@@ -197,6 +197,18 @@
     }
     .footer__bottom span a{
         font-size: 8px;
+    }
+    section ul {
+        overflow-x: scroll;
+        padding-bottom: 5px;
+    }
+    section ul::-webkit-scrollbar {
+        display: none;
+      }
+    .list{
+        padding: 0 5px;
+        line-height: 13px;
+        font-size: 15px;
     }
 
 }
