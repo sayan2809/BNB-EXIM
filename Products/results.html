@@ -71,6 +71,11 @@
           <img class="logo-img" src="./Images/Logo.png" alt="B&B EXIM" />
           <h1 class="logo-txt">EXIM</h1>
         </a>
+
+        <form id="searchForm1" class="search search2" action="results.html">
+          <input type="text" id="searchInput" placeholder="Search for products...">
+          <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
   
         <!--navigation links-->
   
@@ -94,12 +99,43 @@
             <span class="glider"></span>
           </div>
         </div>
+
+        <div class="topnav" id="myTopnav">
+          <a href="./index.html" class="active1">HOME</a>
+          <a href="./Products/products.html">PRODUCTS</a>
+          <a href="./About/index.html">ABOUT US</a>
+          <a href="./Contact Us/index.html">CONTACT US</a>
+          <div class="social2">
+            <ul class="wrapper">
+              <li class="icon facebook">
+                <!-- <span class="tooltip">Facebook</span> -->
+                <span><i class="fab fa-facebook-f"></i></span>
+              </li>
+              <li class="icon twitter">
+                <!-- <span class="tooltip">Twitter</span> -->
+                <span><i class="fab fa-twitter"></i></span>
+              </li>
+              <li class="icon instagram">
+                <!-- <span class="tooltip">Instagram</span> -->
+                <span><i class="fab fa-instagram"></i></span>
+              </li>
+              <li class="icon whatsapp">
+                <!-- <span class="tooltip">Whatsapp</span> -->
+                <span><i class="fab fa-whatsapp"></i></span>
+              </li>
+            </ul>
+          </div>
+        </div>
   
         <!-- nav button -->
   
         <div class="main">
           <button id="shop-now" onclick="location.href='./Products/products.html'">Shop Now!</button>
-          <div class="bx bx-menu" id="menu-icon"></div>
+        </div>
+        <div class="menu">
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
         </div>
       </div>
 
@@ -253,5 +289,16 @@
             window.location.href = "results.html?q=" + encodeURIComponent(searchQuery);
         });
     </script>
+
+<script>
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+  </script>
 </body>
 </html>
