@@ -206,6 +206,9 @@ section {
   display: flex;
   flex-direction: row;
   align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
 }
 
 .logo-img {
