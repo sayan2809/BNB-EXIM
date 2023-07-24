@@ -344,5 +344,47 @@ section {
 .footer li {
   line-height: 30px;
 }
+.vissionpic1{
+  display: none;
+}
 
 /*footer end*/
+
+
+
+
+
+/* RESPONSIVE */
+
+@media only screen and (max-width: 600px) {
+  .text-box1{
+    width: 85%;
+    height: fit-content;
+    padding: 15px 0;
+  }
+  .text-box1 p{
+    font-size: 14px;
+  }
+  .vissionpic1{
+    display: block;
+    width: 100%;
+  }
+  .vissionpic{
+    display: none;
+  }
+  .missionpic{
+    width: 100%;
+  }
+  .vission{
+    margin-top: 50px !important;
+  }
+  .founder-img{
+    max-width: 95%;
+  }
+  .card{
+    height: 112px;
+  }
+  .content {
+    font-size: 13px;
+  }
+}
