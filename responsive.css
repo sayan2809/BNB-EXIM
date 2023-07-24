@@ -99,6 +99,7 @@
     .product{
         min-width: 150px;
         height: 100%;
+        max-width: 170px;
     }
     .description{
         padding-left: 0 !important;
@@ -209,6 +210,11 @@
         padding: 0 5px;
         line-height: 13px;
         font-size: 15px;
+    }
+    .vission{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 36px;
     }
 
 }
