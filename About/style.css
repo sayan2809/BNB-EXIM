@@ -223,6 +223,16 @@ section {
   margin-top: 130px;
 }
 
+.about-logo1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-logo-txt1 {
+  font-size: 50px;
+}
+
 .logo1 {
   display: flex;
   flex-direction: row;
@@ -344,44 +354,40 @@ section {
 .footer li {
   line-height: 30px;
 }
-.vissionpic1{
+.vissionpic1 {
   display: none;
 }
 
 /*footer end*/
 
-
-
-
-
 /* RESPONSIVE */
 
 @media only screen and (max-width: 600px) {
-  .text-box1{
+  .text-box1 {
     width: 85%;
     height: fit-content;
     padding: 15px 0;
   }
-  .text-box1 p{
+  .text-box1 p {
     font-size: 14px;
   }
-  .vissionpic1{
+  .vissionpic1 {
     display: block;
     width: 100%;
   }
-  .vissionpic{
+  .vissionpic {
     display: none;
   }
-  .missionpic{
+  .missionpic {
     width: 100%;
   }
-  .vission{
+  .vission {
     margin-top: 50px !important;
   }
-  .founder-img{
+  .founder-img {
     max-width: 95%;
   }
-  .card{
+  .card {
     height: 112px;
   }
   .content {
