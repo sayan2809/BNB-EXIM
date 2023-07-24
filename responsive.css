@@ -54,7 +54,7 @@
     position: fixed;
     display: flex !important;
     flex-direction: column;
-    top: 58px;
+    top: 62px;
     right: 0;
     height: 50%;
     width: 70%;
@@ -304,7 +304,7 @@
   .list {
     padding: 0 5px;
     line-height: 13px;
-    font-size: 15px;
+    font-size: 12px;
   }
   .vission {
     margin-top: 20px;
