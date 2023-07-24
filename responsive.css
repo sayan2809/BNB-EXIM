@@ -89,7 +89,7 @@
         overflow: scroll;
         padding: 0;
         justify-content: flex-start;
-        padding: 20px !important;
+        padding: 13px !important;
         padding-bottom: 40px !important;
         margin-top: 0;
     }
@@ -186,6 +186,10 @@
         border-bottom: 1px solid #999999;
         border-left: 0;
         border-right: 0;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
     .footer__bottom span{
         font-size: 12px;
@@ -193,6 +197,18 @@
     }
     .footer__bottom span a{
         font-size: 8px;
+    }
+    section ul {
+        overflow-x: scroll;
+        padding-bottom: 5px;
+    }
+    section ul::-webkit-scrollbar {
+        display: none;
+      }
+    .list{
+        padding: 0 5px;
+        line-height: 13px;
+        font-size: 15px;
     }
 
 }
