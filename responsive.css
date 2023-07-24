@@ -1,4 +1,13 @@
 @media only screen and (max-width: 600px) {
+  .logo-img {
+    width: 40px;
+  }
+  .logo-txt {
+    font-size: 20px;
+  }
+  .main #shop-now {
+    display: none;
+  }
   .wrapper1 {
     flex-direction: column;
     justify-content: center;
@@ -21,8 +30,52 @@
   #searchForm {
     display: none;
   }
+  .search2 {
+    display: block !important;
+  }
+  .search input[type="text"] {
+    width: 170px;
+    padding: 5px;
+  }
+  .search button[type="submit"] {
+    padding: 5px 10px;
+  }
   .tabs {
     display: none;
+  }
+  .menu{
+    display: block;
+    margin-right: 5px;
+  }
+  .responsive {
+    position: fixed;
+    display: flex !important;
+    flex-direction: column;
+    top: 58px;
+    right: 0;
+    height: 100%;
+    width: 70%;
+    background: white;
+    z-index: 9999;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding-top: 50px;
+    padding-bottom: 80px;
+  }
+  .responsive a{
+    margin-left: 35px;
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+  }
+  .responsive a{
+    background: white;
+  }
+  .active1{
+    background: #4e99e96a !important;
   }
   .content1 {
     top: 120px;
@@ -34,11 +87,11 @@
   .hero-para {
     color: white;
     width: 70%;
-    font-size: 12px;
+    font-size: 14px;
     margin-top: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     margin-left: 30px;
-    line-height: 12px;
+    line-height: 14px;
     text-shadow: 2px 2px 10px black;
   }
   .hero-button {
@@ -131,6 +184,40 @@
   .about {
     margin-top: 40px;
   }
+
+  .about-logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .about-logo-img {
+    width: 150px;
+  }
+  .about-logo-txt {
+    font-size: 36px;
+  }
+
+  .about-logo-txt1 {
+    font-size: 36px;
+  }
+
+  .about-heading {
+    font-size: 25px;
+  }
+
+  .about-para {
+    line-height: 20px;
+  }
+
+  .testi-heading {
+    font-size: 25px;
+  }
+
+  .testi-para {
+    font-size: 16px;
+    line-height: 20px;
+  }
   .about-us1 {
     flex-direction: column;
   }
@@ -158,6 +245,7 @@
   }
   .faq {
     margin-top: 0;
+    font-size: 36px;
   }
   article {
     width: 90%;
@@ -274,5 +362,21 @@
   }
   .info_single {
     margin: 10px 0;
+  }
+
+  .footer-heading {
+    width: 80%;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  .typewriter h1 {
+    margin-top: 10px;
+  }
+
+  #shop-now {
+    font-size: 12px;
+    padding: 6px 6px;
+    min-height: 0px;
   }
 }

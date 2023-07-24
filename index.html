@@ -73,6 +73,10 @@
         <img class="logo-img" src="./Images/Logo.png" alt="B&B EXIM" />
         <h1 class="logo-txt">EXIM</h1>
       </a>
+      <form id="searchForm1" class="search search2" action="results.html">
+        <input type="text" id="searchInput" placeholder="Search for products...">
+        <button type="submit"><i class="fa fa-search"></i></button>
+      </form>
 
       <!--navigation links-->
 
@@ -96,12 +100,44 @@
           <span class="glider"></span>
         </div>
       </div>
+      <div class="mobile_nav">
+        <div class="topnav" id="myTopnav">
+          <a href="#home" class="active1">HOME</a>
+          <a href="#news">PRODUCTS</a>
+          <a href="#contact">ABOUT US</a>
+          <a href="#about">CONTACT US</a>
+          <div class="social2">
+            <ul class="wrapper">
+              <li class="icon facebook">
+                <!-- <span class="tooltip">Facebook</span> -->
+                <span><i class="fab fa-facebook-f"></i></span>
+              </li>
+              <li class="icon twitter">
+                <!-- <span class="tooltip">Twitter</span> -->
+                <span><i class="fab fa-twitter"></i></span>
+              </li>
+              <li class="icon instagram">
+                <!-- <span class="tooltip">Instagram</span> -->
+                <span><i class="fab fa-instagram"></i></span>
+              </li>
+              <li class="icon whatsapp">
+                <!-- <span class="tooltip">Whatsapp</span> -->
+                <span><i class="fab fa-whatsapp"></i></span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
 
       <!-- nav button -->
 
       <div class="main">
         <button id="shop-now" onclick="location.href='./Products/products.html'">Shop Now!</button>
-        <div class="bx bx-menu" id="menu-icon"></div>
+      </div>
+      <div class="menu">
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
       </div>
     </div>
 
@@ -278,7 +314,7 @@
         <img decoding="async" loading="lazy" class="px-1" src="https://primedirectoryservices.com/wp-content/plugins/pixfort-core/functions/images/star.svg" width="24" height="14" alt="">
       </span>
 
-        <h1 class="testimony-name">Aarav Patel</h1>
+        <h1 class="testimony-name">Dr. Aarav Patel</h1>
 
    
     </div>
@@ -295,7 +331,7 @@
         <img decoding="async" loading="lazy" class="px-1" src="https://primedirectoryservices.com/wp-content/plugins/pixfort-core/functions/images/star.svg" width="24" height="14" alt="">
       </span>
 
-        <h1 class="testimony-name">Aryan Sharma</h1>
+        <h1 class="testimony-name">Dr. Aryan Sharma</h1>
 
    
     </div>
@@ -312,7 +348,7 @@
         <img decoding="async" loading="lazy" class="px-1" src="https://primedirectoryservices.com/wp-content/plugins/pixfort-core/functions/images/star.svg" width="24" height="14" alt="">
       </span>
 
-        <h1 class="testimony-name">Ishika Rao</h1>
+        <h1 class="testimony-name">Dr. Ishika Rao</h1>
 
    
     </div>
@@ -330,7 +366,7 @@
         <img decoding="async" loading="lazy" class="px-1" src="https://primedirectoryservices.com/wp-content/plugins/pixfort-core/functions/images/star.svg" width="24" height="14" alt="">
       </span>
 
-        <h1 class="testimony-name">Ananya Singh</h1>
+        <h1 class="testimony-name">Dr. Ananya Singh</h1>
 
    
     </div>
@@ -349,7 +385,7 @@
         <img decoding="async" loading="lazy" class="px-1" src="https://primedirectoryservices.com/wp-content/plugins/pixfort-core/functions/images/star.svg" width="24" height="14" alt="">
       </span>
 
-        <h1 class="testimony-name">Vihaan Khan</h1>
+        <h1 class="testimony-name">Dr. Vihaan Khan</h1>
 
    
     </div>
@@ -468,8 +504,8 @@
     <footer class="footerr">
       <div class="footer">
         <div class="footer__head">
-          <div class="about-logo">
-            <h1 class="about-logo-txt" style="color: var(--main-color);">BNB EXIM</h1>
+          <div class="about-logo1">
+            <h1 class="about-logo-txt1" style="color: var(--main-color);">BNB EXIM</h1>
           </div></a
           >
           <p class="footer-heading">
@@ -561,7 +597,22 @@ and a hassle-free partnership.
           const searchQuery = document.getElementById("searchInput").value;
           window.location.href = "../Products/results.html?q=" + encodeURIComponent(searchQuery);
       });
+      document.getElementById("searchForm1").addEventListener("submit", function(event) {
+          event.preventDefault();
+          const searchQuery = document.getElementById("searchInput").value;
+          window.location.href = "../Products/results.html?q=" + encodeURIComponent(searchQuery);
+      });
   </script>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script>
 
     <script src="script.js"></script>
   </body>
