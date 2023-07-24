@@ -43,6 +43,43 @@
   .tabs {
     display: none;
   }
+  .menu{
+    display: block;
+    margin-right: 5px;
+  }
+  .menu .icon {
+    color: black;
+  }
+  .responsive {
+    position: fixed;
+    display: flex !important;
+    flex-direction: column;
+    top: 58px;
+    right: 0;
+    height: 100%;
+    width: 70%;
+    background: white;
+    z-index: 9999;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding-top: 50px;
+    padding-bottom: 80px;
+  }
+  .responsive a{
+    margin-left: 35px;
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+  }
+  .responsive a{
+    background: white;
+  }
+  .active1{
+    background: #4e99e96a !important;
+  }
   .content1 {
     top: 120px;
     left: 30px;
