@@ -34,7 +34,7 @@
     display: block !important;
   }
   .search input[type="text"] {
-    width: 170px;
+    width: 200px;
     padding: 5px;
   }
   .search button[type="submit"] {
@@ -43,7 +43,7 @@
   .tabs {
     display: none;
   }
-  .menu{
+  .menu {
     display: block;
     margin-right: 5px;
   }
@@ -65,7 +65,7 @@
     padding-top: 50px;
     padding-bottom: 80px;
   }
-  .responsive a{
+  .responsive a {
     margin-left: 35px;
     text-decoration: none;
     color: black;
@@ -74,10 +74,10 @@
     padding-right: 10px;
     border-radius: 20px;
   }
-  .responsive a{
+  .responsive a {
     background: white;
   }
-  .active1{
+  .active1 {
     background: #4e99e96a !important;
   }
   .content1 {
