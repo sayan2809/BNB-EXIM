@@ -186,6 +186,10 @@
         border-bottom: 1px solid #999999;
         border-left: 0;
         border-right: 0;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
     .footer__bottom span{
         font-size: 12px;
