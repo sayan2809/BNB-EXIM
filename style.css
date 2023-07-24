@@ -1024,3 +1024,7 @@ body {
   z-index: 999;
   background: white;
 }
+
+.fa-bars:before{
+  font-size: 25px;
+}
