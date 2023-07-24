@@ -385,11 +385,11 @@ body {
   align-items: center;
   margin-top: 0;
 }
-.container1{
+.container1 {
   width: 60%;
   margin-top: 80px;
   margin-bottom: 80px;
-  }
+}
 
 .contact_inner {
   background-color: #fff;
@@ -501,6 +501,16 @@ button.contact_form_submit {
 
 .footerr {
   margin-top: 130px;
+}
+
+.about-logo1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-logo-txt1 {
+  font-size: 50px;
 }
 
 .logo1 {
@@ -627,8 +637,6 @@ button.contact_form_submit {
 
 /*footer end*/
 
-
-
-.info_sec_1{
+.info_sec_1 {
   display: none;
 }

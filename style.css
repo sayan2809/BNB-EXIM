@@ -878,6 +878,16 @@ body {
   margin-top: 130px;
 }
 
+.about-logo1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-logo-txt1 {
+  font-size: 50px;
+}
+
 .logo1 {
   display: flex;
   flex-direction: row;
@@ -993,10 +1003,10 @@ body {
   line-height: 30px;
 }
 
-
-.search2{
+.search2 {
   display: none;
 }
+<<<<<<< HEAD
 
 .topnav{
   display: none;
@@ -1005,3 +1015,5 @@ body {
 .menu{
   display: none;
 }
+=======
+>>>>>>> 5db4c16b41185271d2b930942bb4f3e2cbb2ae4d
