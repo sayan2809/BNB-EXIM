@@ -1014,3 +1014,15 @@ body {
 .menu{
   display: none;
 }
+
+
+
+.navbar{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 99999;
+  background: hsla(0,0%,100%,.25);
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+}
