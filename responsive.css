@@ -47,6 +47,9 @@
     display: block;
     margin-right: 5px;
   }
+  .menu .icon {
+    color: black;
+  }
   .responsive {
     position: fixed;
     display: flex !important;
