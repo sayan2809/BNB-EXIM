@@ -74,7 +74,7 @@
         <h1 class="logo-txt">EXIM</h1>
       </a>
       <form id="searchForm1" class="search search2" action="results.html">
-        <input type="text" id="searchInput" placeholder="Search for products...">
+        <input type="text" id="searchInput1" placeholder="Search for products...">
         <button type="submit"><i class="fa fa-search"></i></button>
       </form>
 
@@ -598,7 +598,7 @@ and a hassle-free partnership.
       });
       document.getElementById("searchForm1").addEventListener("submit", function(event) {
           event.preventDefault();
-          const searchQuery = document.getElementById("searchInput").value;
+          const searchQuery = document.getElementById("searchInput1").value;
           window.location.href = "../Products/results.html?q=" + encodeURIComponent(searchQuery);
       });
   </script>
