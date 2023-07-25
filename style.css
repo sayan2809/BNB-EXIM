@@ -1007,17 +1007,15 @@ body {
   display: none;
 }
 
-.topnav{
+.topnav {
   display: none;
 }
 
-.menu{
+.menu {
   display: none;
 }
 
-
-
-.navbar{
+.navbar {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
@@ -1025,6 +1023,6 @@ body {
   background: white;
 }
 
-.fa-bars:before{
+.fa-bars:before {
   font-size: 25px;
 }
