@@ -156,7 +156,7 @@
     "id": "18",
     "image": "../Images/products/scalpel.jpg",
     "title": "SCALPEL",
-    "category": "surgical",
+    "category": "surgerical",
     "description": "Scalpel, Fixed Blade - 45mm",
     "quantity": "100 Pieces",
     "price": "9,99"
@@ -165,7 +165,7 @@
     "id": "19",
     "image": "../Images/products/forcep.jpg",
     "title": "FORCEPS",
-    "category": "surgical",
+    "category": "surgerical",
     "description": "Forceps, Pointed End - 130mm",
     "quantity": "100 Pieces",
     "price": "9,99"
@@ -174,7 +174,7 @@
     "id": "20",
     "image": "../Images/products/kidney-tray.jpg",
     "title": "KIDNEY TRAY",
-    "category": "surgical",
+    "category": "surgerical",
     "description": "Stainless Steel FC Kidney Tray 10'' ",
     "quantity": "50 Pieces",
     "price": "9,99"
