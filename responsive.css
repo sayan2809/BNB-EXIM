@@ -4,6 +4,7 @@
   }
   .logo-txt {
     font-size: 20px;
+    margin-right: 10px;
   }
   .main #shop-now {
     display: none;
@@ -34,7 +35,7 @@
     display: block !important;
   }
   .search input[type="text"] {
-    width: 200px;
+    width: 230px;
     height: 30px;
     padding: 5px;
   }
