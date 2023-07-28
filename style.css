@@ -450,7 +450,7 @@ button:active {
   color: black;
 }
 
-.heavy {
+.catagory-img {
   display: block;
   width: 100%;
   padding: 8px;
@@ -458,7 +458,7 @@ button:active {
   border-radius: 15px;
   max-width: 400px;
 }
-.heavy-categories {
+.category-title {
   margin: 10px;
   font-size: 20px;
 }
