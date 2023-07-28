@@ -1,0 +1,28 @@
+* {
+  margin: 20px 100px;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --bg-color: #fff;
+  --text-color: #222327;
+  --main-color: #4e99e9;
+}
+
+body {
+  min-height: 100vh;
+  background: var(--bg-color);
+  color: var(--text-color);
+}
+
+section {
+  margin-top: 100px;
+}
