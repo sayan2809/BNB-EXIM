@@ -6,7 +6,8 @@
     "category": "generic",
     "description": "Aceclofenac 100mg, Paracetamol 325mg, Serratiopeptidase 10mg",
     "quantity": "200 Tablets",
-    "price": "9,99"
+    "price": "9,99",
+    "alt": "B&B EXIM"
   },
   {
     "id": "2",
@@ -15,7 +16,8 @@
     "category": "generic",
     "description": "Aceclofenac, Paracetamol and Chlorzoxazone",
     "quantity": "200 Tablets",
-    "price": "9,99"
+    "price": "9,99",
+    "alt": "B&B EXIM"
   },
   {
     "id": "3",
@@ -24,7 +26,8 @@
     "category": "generic",
     "description": "Disodium Hydrogen Citrate 1.40gm",
     "quantity": "100 ML",
-    "price": "9,99"
+    "price": "9,99",
+    "alt": "B&B EXIM"
   },
   {
     "id": "4",
@@ -33,7 +36,8 @@
     "category": "generic",
     "description": "Azithromycin 250",
     "quantity": "120 Tablets",
-    "price": "9,99"
+    "price": "9,99",
+    "alt": "B&B EXIM"
   },
   {
     "id": "5",
@@ -42,7 +46,8 @@
     "category": "generic",
     "description": "Azithromycin 500",
     "quantity": "150 Tablets",
-    "price": "9,99"
+    "price": "9,99",
+    "alt": "B&B EXIM"
   },
   {
     "id": "6",
@@ -51,7 +56,8 @@
     "category": "generic",
     "description": "Azithromycin 500",
     "quantity": "60 Tablets",
-    "price": "9,99"
+    "price": "9,99",
+    "alt": "B&B EXIM"
   },
   {
     "id": "7",
@@ -60,7 +66,8 @@
     "category": "generic",
     "description": "Cefpodoxime 200mg",
     "quantity": "100 Tablets",
-    "price": "9,99"
+    "price": "9,99",
+    "alt": "B&B EXIM"
   },
   {
     "id": "8",
@@ -69,7 +76,8 @@
     "category": "generic",
     "description": "Cefixime 200mg",
     "quantity": "100 Tablets",
-    "price": "9,99"
+    "price": "9,99",
+    "alt": "B&B EXIM"
   },
   {
     "id": "9",
@@ -78,7 +86,8 @@
     "category": "generic",
     "description": "Cetirizine dihydrochloride 5mg",
     "quantity": "60 ML",
-    "price": "9,99"
+    "price": "9,99",
+    "alt": "B&B EXIM"
   },
   {
     "id": "10",
@@ -87,7 +96,8 @@
     "category": "generic",
     "description": "Cetirizine Hydrochloride 10mg",
     "quantity": "500 Tablets",
-    "price": "9,99"
+    "price": "9,99",
+    "alt": "B&B EXIM"
   },
   {
     "id": "11",
@@ -96,7 +106,8 @@
     "category": "generic",
     "description": "Mifepristone 200mg, Misoprostol 200mg",
     "quantity": "50 Tablets",
-    "price": "9,99"
+    "price": "9,99",
+    "alt": "B&B EXIM"
   },
   {
     "id": "12",
@@ -105,7 +116,8 @@
     "category": "generic",
     "description": "Ambroxol, Levosalbutamol /Levalbuterol, Guaifenesin",
     "quantity": "100 ML",
-    "price": "9,99"
+    "price": "9,99",
+    "alt": "B&B EXIM"
   },
   {
     "id": "13",
@@ -114,7 +126,8 @@
     "category": "branded",
     "description": "Paracetamol 650mg",
     "quantity": "200 Tablets",
-    "price": "9,99"
+    "price": "9,99",
+    "alt": "B&B EXIM"
   },
   {
     "id": "14",
@@ -123,7 +136,8 @@
     "category": "branded",
     "description": "Antacid Antigas Chewable Tablets",
     "quantity": "200 Tablets",
-    "price": "9,99"
+    "price": "9,99",
+    "alt": "B&B EXIM"
   },
   {
     "id": "15",
@@ -132,7 +146,8 @@
     "category": "branded",
     "description": "Aspirin Tablets BP 150mg",
     "quantity": "100 Tablets",
-    "price": "9,99"
+    "price": "9,99",
+    "alt": "B&B EXIM"
   },
   {
     "id": "16",
@@ -141,7 +156,8 @@
     "category": "branded",
     "description": "Metronidazole Tablets IP 400mg",
     "quantity": "540 Tablets",
-    "price": "9,99"
+    "price": "9,99",
+    "alt": "B&B EXIM"
   },
   {
     "id": "17",
@@ -150,7 +166,8 @@
     "category": "branded",
     "description": "Povidone-Iodine Solution IP 10% w/v",
     "quantity": "100 ML",
-    "price": "9,99"
+    "price": "9,99",
+    "alt": "B&B EXIM"
   },
   {
     "id": "18",
@@ -159,7 +176,8 @@
     "category": "surgerical",
     "description": "Scalpel, Fixed Blade - 45mm",
     "quantity": "100 Pieces",
-    "price": "9,99"
+    "price": "9,99",
+    "alt": "B&B EXIM"
   },
   {
     "id": "19",
@@ -168,7 +186,8 @@
     "category": "surgerical",
     "description": "Forceps, Pointed End - 130mm",
     "quantity": "100 Pieces",
-    "price": "9,99"
+    "price": "9,99",
+    "alt": "B&B EXIM"
   },
   {
     "id": "20",
@@ -177,16 +196,18 @@
     "category": "surgerical",
     "description": "Stainless Steel FC Kidney Tray 10'' ",
     "quantity": "50 Pieces",
-    "price": "9,99"
+    "price": "9,99",
+    "alt": "B&B EXIM"
   },
   {
     "id": "21",
     "image": "../Images/products/ecg.jpg",
     "title": "ECG MACHINE",
     "category": "heavy",
-    "description": "6 Channel Ecg Machine, Portable, ECG-600G",
+    "description": "6 Channel Ecg Machine, Portable",
     "quantity": "1 Set",
-    "price": "9,99"
+    "price": "9,99",
+    "alt": "B&B EXIM"
   },
   {
     "id": "22",
@@ -195,7 +216,8 @@
     "category": "heavy",
     "description": "500 Ma X Ray Machine With Cr System",
     "quantity": "1 Set",
-    "price": "9,99"
+    "price": "9,99",
+    "alt": "B&B EXIM"
   },
   {
     "id": "23",
@@ -204,7 +226,8 @@
     "category": "heavy",
     "description": "CT-SCAN MACHINE",
     "quantity": "1 Set",
-    "price": "9,99"
+    "price": "9,99",
+    "alt": "B&B EXIM"
   },
   {
     "id": "24",
@@ -213,7 +236,8 @@
     "category": "other",
     "description": "Dual Head Stethoscope Stainless Steel",
     "quantity": "50 Pieces",
-    "price": "9,99"
+    "price": "9,99",
+    "alt": "B&B EXIM"
   },
   {
     "id": "25",
@@ -222,7 +246,8 @@
     "category": "other",
     "description": "Face Mask with adjustable Nose Clip",
     "quantity": "200 Pieces",
-    "price": "9,99"
+    "price": "9,99",
+    "alt": "B&B EXIM"
   },
   {
     "id": "26",
@@ -231,7 +256,8 @@
     "category": "other",
     "description": "Rubber Disposable Surgical Gloves",
     "quantity": "100 Pairs",
-    "price": "9,99"
+    "price": "9,99",
+    "alt": "B&B EXIM"
   },
   {
     "id": "27",
@@ -240,7 +266,8 @@
     "category": "other",
     "description": "Infrared Thermometer",
     "quantity": "10 Set",
-    "price": "9,99"
+    "price": "9,99",
+    "alt": "B&B EXIM"
   },
   {
     "id": "28",
@@ -249,7 +276,8 @@
     "category": "generic",
     "description": "Cetirizine dihydrochloride 5mg",
     "quantity": "200 Tablets",
-    "price": "9,99"
+    "price": "9,99",
+    "alt": "B&B EXIM"
   },
   {
     "id": "29",
@@ -258,7 +286,8 @@
     "category": "generic",
     "description": "Cetirizine dihydrochloride 5mg",
     "quantity": "200 Tablets",
-    "price": "9,99"
+    "price": "9,99",
+    "alt": "B&B EXIM"
   },
   {
     "id": "30",
@@ -267,7 +296,8 @@
     "category": "generic",
     "description": "Cetirizine dihydrochloride 5mg",
     "quantity": "200 Tablets",
-    "price": "9,99"
+    "price": "9,99",
+    "alt": "B&B EXIM"
   },
   {
     "id": "31",
@@ -276,7 +306,8 @@
     "category": "generic",
     "description": "Cetirizine dihydrochloride 5mg",
     "quantity": "200 Tablets",
-    "price": "9,99"
+    "price": "9,99",
+    "alt": "B&B EXIM"
   },
   {
     "id": "32",
@@ -285,7 +316,8 @@
     "category": "generic",
     "description": "Cetirizine dihydrochloride 5mg",
     "quantity": "200 Tablets",
-    "price": "9,99"
+    "price": "9,99",
+    "alt": "B&B EXIM"
   },
   {
     "id": "33",
@@ -294,7 +326,8 @@
     "category": "generic",
     "description": "Cetirizine dihydrochloride 5mg",
     "quantity": "200 Tablets",
-    "price": "9,99"
+    "price": "9,99",
+    "alt": "B&B EXIM"
   },
   {
     "id": "34",
@@ -303,7 +336,8 @@
     "category": "generic",
     "description": "Cetirizine dihydrochloride 5mg",
     "quantity": "200 Tablets",
-    "price": "9,99"
+    "price": "9,99",
+    "alt": "B&B EXIM"
   },
   {
     "id": "35",
@@ -312,7 +346,8 @@
     "category": "generic",
     "description": "Cetirizine dihydrochloride 5mg",
     "quantity": "200 Tablets",
-    "price": "9,99"
+    "price": "9,99",
+    "alt": "B&B EXIM"
   },
   {
     "id": "36",
@@ -321,7 +356,8 @@
     "category": "generic",
     "description": "Cetirizine dihydrochloride 5mg",
     "quantity": "200 Tablets",
-    "price": "9,99"
+    "price": "9,99",
+    "alt": "B&B EXIM"
   },
   {
     "id": "37",
@@ -330,7 +366,8 @@
     "category": "generic",
     "description": "Cetirizine dihydrochloride 5mg",
     "quantity": "200 Tablets",
-    "price": "9,99"
+    "price": "9,99",
+    "alt": "B&B EXIM"
   },
   {
     "id": "38",
@@ -339,7 +376,8 @@
     "category": "generic",
     "description": "Cetirizine dihydrochloride 5mg",
     "quantity": "200 Tablets",
-    "price": "9,99"
+    "price": "9,99",
+    "alt": "B&B EXIM"
   },
   {
     "id": "39",
@@ -348,7 +386,8 @@
     "category": "generic",
     "description": "Cetirizine dihydrochloride 5mg",
     "quantity": "200 Tablets",
-    "price": "9,99"
+    "price": "9,99",
+    "alt": "B&B EXIM"
   },
   {
     "id": "40",
@@ -357,6 +396,7 @@
     "category": "generic",
     "description": "Cetirizine dihydrochloride 5mg",
     "quantity": "200 Tablets",
-    "price": "9,99"
+    "price": "9,99",
+    "alt": "B&B EXIM"
   }
 ]
