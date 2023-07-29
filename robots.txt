@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Sitemap:https://bnbexim.com/sitemap.xml
+User-agent: *
+Allow: /
+Sitemap:https://bnbexim.com/sitemap.xml
